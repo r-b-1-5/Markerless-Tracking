@@ -1,5 +1,10 @@
 For deeplabcut, it is always desirable to downsample the original video for better results.
 
+* Open Anaconda Prompt. Activate the DEEPLABCUT environment using the following command. 
+```python
+Run: activate DEEPLABCUT
+```
+
 * First enter into the ipython terminal and import deeplabcut using the commands:
 ```python
 Run: ipython
@@ -10,7 +15,7 @@ Run: import deeplabcut
 
 * 
 ```python
-Run: downsampledvideoname=deeplabcut.DownSampleVideo('**PATH TO THE VIDEO**', width=360,height=640,outsuffix='cropped')
+Run: downsampledvideoname=deeplabcut.DownSampleVideo('PATH TO THE VIDEO', width=360,height=640,outsuffix='cropped')
 ```
 This command downsamples the video to a width of 360 and height of 640 and saves it in the video folder as {videoname}cropped.avi
 
