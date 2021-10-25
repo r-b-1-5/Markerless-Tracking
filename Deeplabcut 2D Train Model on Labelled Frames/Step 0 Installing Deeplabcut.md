@@ -8,10 +8,13 @@ Run: mkdir {dir_name} → to create a new directory)
 ![Creating a new directory and changing to it](https://miro.medium.com/max/689/1*zLs8GhDDa1m_KEEhGUPKew.png)
 * Now, clone DeepLabCut using the following command into your PC.
 Run: git clone https://github.com/DeepLabCut/DeepLabCut.git
-* Go to the go to the folder named conda-environments present in the DeepLabCut directory that was cloned in the previous step and copy its path.
+* Go to the folder named conda-environments present in the DeepLabCut directory that was cloned in the previous step and copy its path.
 
 ![Copying the path to the conda-environments directory](https://miro.medium.com/max/1138/1*8PLJK-x7CGiaTOu16j0Jtw.png)
-* Run: conda env create -f DEEPLABCUT.yaml
+* 
+```
+Run: conda env create -f DEEPLABCUT.yaml
+```
 This command may take some time to set up the environment.
 * Run: activate DEEPLABCUT
 This command will change to the environment that we created with the command before.
