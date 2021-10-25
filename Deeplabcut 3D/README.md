@@ -56,7 +56,7 @@ TIP 2: you can also place ``config_path3d`` in front of ``deeplabcut.create_new_
 The checkerboard images taken should be named with the **camera-#** as the prefix, i.e. **camera-1-01.jpg** and **camera-2-01.jpg** for the first pair of images. Please note, this cannot be changed after the project is created. Also, make sure that the numbering is same, e.g: camera-1-**01** and camera-2-**01**.
 
 To extract the frames from the video captured(this extracts 200 frames from the video), run the following commands for the two cameras:
-**RUN THE FOLLOWING COMMANDS IN ANACONDA PROMPT AFTER ACTIVATING THE DEEPLABCUT ENVIRONMENT WITHOUT GOING INTO THE IPYTHON TERMINAL. ALSO, YOU NEED TO NAVIGATE TO THE VIDEO DIRECTORY IN THE ANACONDA PROMPT WHERE THE VIDEOS ARE PRESENT.**
+**(RUN THE FOLLOWING COMMANDS IN ANACONDA PROMPT AFTER ACTIVATING THE DEEPLABCUT ENVIRONMENT WITHOUT GOING INTO THE IPYTHON TERMINAL. ALSO, YOU NEED TO NAVIGATE TO THE DIRECTORY IN THE ANACONDA PROMPT WHERE THE VIDEOS ARE PRESENT.)**
 ```
 ffmpeg -i 002_Nexigo.mp4 -r 2 -vframes 200 camera-1-%03d.jpg
 
