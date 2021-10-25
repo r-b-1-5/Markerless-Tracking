@@ -11,18 +11,29 @@ Run: git clone https://github.com/DeepLabCut/DeepLabCut.git
 * Go to the folder named conda-environments present in the DeepLabCut directory that was cloned in the previous step and copy its path.
 
 ![Copying the path to the conda-environments directory](https://miro.medium.com/max/1138/1*8PLJK-x7CGiaTOu16j0Jtw.png)
-* 
+* Then, 
 ```
 Run: conda env create -f DEEPLABCUT.yaml
 ```
 This command may take some time to set up the environment.
-* Run: activate DEEPLABCUT
+* Next, 
+```
+Run: activate DEEPLABCUT
+```
 This command will change to the environment that we created with the command before.
 * (OPTIONAL) To upgrade DeepLabCut,
 run the following command inside your env in Anaconda:
-pip install — upgrade deeplabcut
-* Run: ipython
+```
+Run: pip install — upgrade deeplabcut
+```
+* Then, 
+``` 
+Run: ipython
+```
 This command enters you into the python shell, where you can work with the python commands (including those specific to deeplabcut.)
-* Run: import deeplabcut
+* Next, 
+```
+Run: import deeplabcut
+```
 This imports the deeplabcut package. Now we can test the various functionalities of DeepLabCut.
 * FOR OTHER DETAILS ON THE INSTALLATION PROCESS, FOLLOW THIS LINK: [Link](https://github.com/DeepLabCut/DeepLabCut/blob/master/docs/installation.md)
